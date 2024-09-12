@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+.dummy {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+:root {
+    --green : #B9FF66;
+    --black : #191A23;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container {
+    padding-top: 20px;
+}
+.button {
+    width: 200px;
+    height: 50px;
+    border-radius: 14px;
+    border: 1px solid;
+    justify-content: center;
+    padding: 8px 35px 10px 35px;
+    margin-top: 15px;
+    margin-left: -280px;
+}
+.navigation {
+    display: flex;
+}
+.nav-link {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: #000000;
+}
+.text>h1 {
+    font-weight: 500px;
+    size: 50px;
+    line-height: 50px;
+    width: 320px;
+    height: 230px;
+    padding-top: 30px;
+}
+.main_container {
+    margin: 0%;
+    padding: 0%;
+}
+.text>h5 {
+    font-weight: 400px;
+    size: 20px;
+    line-height: 30px;
+    height: 120px;
+    width: 470px;
+}
+.button_1 {
+    font-weight: 400px;
+    size: 20px;
+    align-items: center;
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: var(--black);
+    color: white;
+    margin-top: 30px;
+}
+.container_2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 130px;
+}
+.image_1 {
+    padding-left: 120px;
+}
+.company_logo {
+    padding: 0px 250px 0px 150px;
+    gap: 70px;
+    justify-content: space-between;
+    margin-top: -50px;
+    height: 40px;
+    width: 50px;
+    display: flex;
+}
+
+@media only screen and (max-width: 500px) {
+    .imge{
+        height: 50px;
+        width: 100px;
+        margin-left: -40px;
+        margin-top: 80px;
+    }
+    .imge-4{
+        height: 50px;
+        width: 100px;
+        margin-top: 150px;
+        margin-left: -300px;
+    }
+    .imge-5{
+        height: 50px;
+        width: 100px;
+        margin-left: -300px;
+        margin-top: 150px;
+    }
+    .imge-6{
+        height: 50px;
+        width: 100px;
+        margin-left: 100px;
+        margin-top: 150px;
+    }
+    .image_1{
+        height: 50px;
+        width: 180px;
+        margin-left: -200px;
+        margin-top: -700px;
+    }
+    .text_2{
+        padding-top: 150px;
+        padding-left: 550px;
+    }
+    .text_2>p{
+        padding-left: 200px;
+        padding-top: 80px;
+    }
+    .text>h1{
+        margin-left: -50px;
+    }
+    .text>h5{
+        margin-left: -70px;
+        margin-top: 300px;
+    }
+    .button_1{
+        width: 420px;
+        margin-left: -80px;
+        margin-top: 50px;
+    }
+    .text_box1{
+        display: none;
+    }
+    .text_box2{
+        margin-top: 30px;
+    }
+}
+
+.text_2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -150px;
+    margin-top: 50px;
+}
+.text_2>h5 {
+    background-color: var(--green);
+    width: 80px;
+    padding-top: 5px;
+    justify-content: center;
+    height: 40px;
+    margin-left: -220px;
+}
+.text_2>p {
+    height: 40px;
+    width: 550px;
+    margin-left: -480px;
+}
+.text_3>h5 {
+    
+    background-color: var(--green);
+    width: 200px;
+    padding-top: 8px;
+    justify-content: center;
+    height: 40px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.text_3>p {
+    height: 40px;
+    width: 550px;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+.text_3 {
+    display: flex;
+}
+.text_box1 {
+    border: 1px solid;
+    height: 250px;
+    width: 500px;
+    margin-left: 130px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 0px 0px;
+}
+.text_box2 {
+    border: 1px solid;
+    height: 250px;
+    width: 500px;
+    background-color: rgb(176, 223, 68);
+    margin-left: 30px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 0px 0px;
+}
+
+@media only screen and (max-width: 500px) {
+    .text_3>h5{
+        width: 130px;
+        height: 60px;
+        text-align: center;
+    }
+    .text_3>p{
+        margin-left: -200px;
+        width: 400px;
+        margin-top: 130px;
+    }
+    .card_box1{
+        border: 1px solid;
+        box-shadow: 0px 4px 0px 0px;
+        margin-left: -100px;
+    }
+    .card_text1{
+        margin-top: 30px;
+    }
+    .card_text1>.num1{
+        margin-left: -520px;
+    }
+    .card_box2{
+        margin-left: -100px;
+    }
+    .card_text2{
+        width: 800px;
+        margin-top: -10px;
+        margin-left: -30px;
+    }
+    .card_text2>p{
+        display: none;
+    }
+    .line>hr{
+        display: none;
+    }
+    .card_text3{
+        width: 800px;
+        margin-top: -10px;
+        margin-left: -30px;
+    }
+    .card_text3>.num5{
+        margin-left: -470px;
+    }
+    .card_text4{
+        width: 480px;
+        margin-top: -10px;
+        margin-left: -30px;
+    }
+    .card_text4>.num7{
+        margin-left: -430px;
+    }
+    .card_text4>.num9{
+        margin-left: -430px;
+    }
+    .card_text4>.num11{
+        margin-left: -430px;
+    }
+    .card_text2>h4{
+        width: 300px;
+    }
+    .card_text2>.num3{
+        margin-left: -360px;
+    }
+}
+
+.content {
+    padding-top: 50px;
+    padding-left: 150px;
+    display: none;
+}
+.content>h3 {
+    width: 250px;
+}
+.content>p {
+    width: 250px;
+}
+.content>.buttn {
+    width: 180px;
+    padding-top: 10px;
+    padding-left: 30px;
+    border-radius: 15px;
+    color: white;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+}
+.box {
+    display: flex;
+    margin-top: 50px;
+}
+.text_box1>h4 {
+    background-color: rgb(154, 201, 45);
+    width: 170px;
+    margin-top: 30px;
+    justify-content: center;
+    height: 40px;
+    font-weight: 150px;
+    size: 10px;
+    justify-content: center;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.text_box1>h5 {
+    background-color: rgb(154, 201, 45);
+    width: 140px;
+    height: 30px;
+    padding-left: 5px;
+    margin-left: 30px;
+    font-weight: 500px;
+    size: 80px;
+    margin-top: -7px;
+    border-radius: 5px;
+}
+.text_box1>.cycle {
+    padding-left: 120px;
+    margin-top: -160px;
+}
+.link {
+    width: 170px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.text_box2>h4 {
+    background-color: white;
+    width: 150px;
+    margin-top: 30px;
+    justify-content: center;
+    height: 40px;
+    font-weight: 150px;
+    size: 10px;
+    justify-content: center;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.text_box2>h5 {
+    background-color: white;
+    width: 120px;
+    height: 30px;
+    padding-left: 5px;
+    margin-left: 30px;
+    font-weight: 500px;
+    size: 80px;
+    margin-top: -7px;
+    border-radius: 5px;
+}
+.cycle2 {
+    margin-top: -160px;
+    padding-left: 80px;
+}
+.card_box {
+    border: 1px solid;
+    margin-top: 30px;
+    height: 200px;
+    width: 1050px;
+    margin-left: 120px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 0px 0px;
+}
+.card_box>.card_box1 {
+    background-color: rgb(176, 223, 68);
+    border-radius: 30px;
+    height: 200px;
+    width: 1050px;
+}
+.card_text1 {
+    font-weight: 500px;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.card_text1>h3 {
+    font-weight: 500px;
+    size: 30px;
+    height: 40px;
+    width: 600px;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.card_text1 {
+    display: flex;
+}
+.card_text1>.num1 {
+    padding-left: 250px;
+}
+.card_text1>.num2 {
+    margin-left: -37px;
+}
+.card_text1>.num4 {
+    display: none;
+}
+.line {
+    width: 1000px;
+    justify-content: center;
+    padding-left: 50px;
+}
+.card_text2 {
+    display: flex;
+    padding-left: 50px;
+}
+.card_box2 {
+    border: 1px solid;
+    border-radius: 40px;
+    height: 100px;
+    width: 1050px;
+    box-shadow: 0px 4px 0px 0px;
+    margin-top: 20px;
+}
+.card_text2>h1 {
+    padding-top: 20px;
+}
+.card_text2>h4 {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.card_text2>.num3 {
+    padding-left: 420px;
+    padding-top: 20px;
+}
+.card_text2>.num4 {
+    margin-left: -43px;
+    padding-top: 15px;
+}
+.card_text3 {
+    display: flex;
+}
+.card_text3>h1 {
+    margin-top: 20px;
+    padding-left: 50px;
+}
+.card_text3>h4 {
+    margin-top: 30px;
+    padding-left: 30px;
+}
+.card_text3>.num5 {
+    padding-left: 640px;
+    margin-top: 20px;
+}
+.card_text3>.num6 {
+    margin-top: 20px;
+    margin-left: -43px;
+}
+.card_text4 {
+    display: flex;
+}
+.card_text4>h1 {
+    margin-top: 20px;
+    padding-left: 50px;
+}
+.card_text4>h4 {
+    margin-top: 30px;
+    padding-left: 30px;
+}
+.card_text4>.num7 {
+    padding-left: 500px;
+    margin-top: 20px;
+}
+.card_text4>.num8 {
+    margin-top: 20px;
+    margin-left: -43px;
+}
+.card_text4>.num9 {
+    padding-left: 485px;
+    margin-top: 20px;
+}
+.card_text4>.num10 {
+    margin-top: 20px;
+    margin-left: -43px;
+}
+.card_text4>.num11 {
+    padding-left: 565px;
+    margin-top: 20px;
+}
+.card_text4>.num12 {
+    margin-top: 20px;
+    margin-left: -43px;
+}
+.text_4>h5 {
+    
+    background-color: rgb(177, 221, 74);
+    width: 110px;
+    padding-top: 8px;
+    justify-content: center;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 50px;
+    padding-left: 5px;
+}
+.text_4>p {
+    height: 40px;
+    width: 300px;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+.text_4 {
+    display: flex;
+}
+.select {
+    display: flex;
+    margin-top: 50px;
+}
+.sel {
+    margin-left: 60px;
+}
+.sel1 {
+    margin-left: -24px;
+}
+.select>p {
+    padding-left: 30px;
+    padding-top: 15px;
+}
+.sel2 {
+    padding-left: 40px;
+}
+.input {
+    padding-left: 60px;
+    padding-top: 30px;
+}
+input {
+    border: 1px solid;
+    border-radius: 5px;
+    height: 35px;
+    width: 450px;
+    padding-left: 20px;
+}
+.input>p {
+    line-height: 5px;
+}
+.mess {
+    height: 550px;
+}
+.message-box {
+    height: 150px;
+}
+.pic {
+    padding-left: 750px;
+    margin-top: -400px;
+}
+.bttn {
+    margin-left: 60px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: -50px;
+    width: 460px;
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid;
+    color: white;
+}
+.foot {
+    height: 500px;
+    width: 1050px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+    .text_4>p{
+        padding-top: 70px;
+        margin-left: -170px;
+    }
+    .select{
+        margin-left: -50px;
+    }
+    .input{
+        margin-left: -150px;
+    }
+    .bttn{
+        margin-top: 50px;
+        margin-left: -90px;
+    }
+    .pic{
+        display: none;
+    }
+    .foot{
+        width: 500px;
+        margin-left: -120px;
+        margin-top: -120px;
+    }
+}
